@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programas-Proyecto 4 Patas</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="progamas.html">Programas</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-    </header>
-<main>
-    <h1>Nuestros Programas</h1>
+<header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="programas.html">Programas</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+    <main>
+        <h1>Nuestros Programas</h1>
     <section>
         <article id="rescate">
             <h2>Rescate y rehabilitación</h2>
@@ -48,6 +49,24 @@
         </article>
     </section>
 </main>
+<form action="#" method="POST">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+            <label for="telefono">Teléfono de Contacto:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ej: 11 1234-5678">
+
+            <label for="motivo">Motivo del contacto:</label>
+            <input type="text" id="motivo" name="motivo" placeholder="Ej: Adopción, Voluntariado, Consulta general">
+
+            <label for="mensaje">Tu Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu consulta acá..." required></textarea>
+
+            <button type="submit">Enviar Formulario</button>
+        </form>
     <footer>
     <p>© 2018 Proyecto 4 Patas - Todos los derechos reservados</p>
 </footer>
