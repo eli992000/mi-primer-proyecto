@@ -159,7 +159,6 @@ caption {
   border: solid 3px;
   font-size: 20px;
   text-align: center;
-  text-decoration: overline;
   font-weight: bold;
 }
 thead{
@@ -180,7 +179,7 @@ tr{
 } 
 
 .listanav{
-    display: flex;
+    display: inline;
     justify-content: center;
     gap: 20px;
     color: var(--color-primario);
