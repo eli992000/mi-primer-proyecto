@@ -179,11 +179,14 @@ tr{
 } 
 
 .listanav{
-    display: inline;
+
     justify-content: center;
     gap: 20px;
     color: var(--color-primario);
     text-decoration: none;
     font-weight: bold;
 
+}
+#navlist{
+    display: inline;
 }
