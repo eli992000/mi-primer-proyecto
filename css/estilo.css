@@ -152,9 +152,9 @@ footer {
 
 #unatabladeperritos{
   background-color: rgb(2, 128, 144);
-
+}
 caption {
-  margin: 10px;
+  margin: 10px; 
   padding: 10px;
   border: solid 3px;
   font-size: 20px;
@@ -169,7 +169,7 @@ thead{
 tr{
     text-align: center;
 }
-}
+
 
 #presentacion{
   line-height: 1.5;
