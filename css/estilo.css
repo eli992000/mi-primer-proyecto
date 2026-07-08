@@ -170,7 +170,16 @@ tr{
     text-align: center;
 }
 
-
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
+#carouselindex{
+  margin: 100px;
+  padding: 50px;
+  border: 2px solid ;
+  height: 500px;
+}
 #presentacion{
   line-height: 1.5;
   text-align: right;
