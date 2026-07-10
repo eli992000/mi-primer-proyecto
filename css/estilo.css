@@ -213,3 +213,31 @@ tr{
     gap: 10px;
 
 }
+
+.instagram {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.instagram h2 {
+    color: hsl(202, 75%, 54%);
+    margin-bottom: 10px;
+}
+
+.instagram p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: hsl(202, 75%, 54%);
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
