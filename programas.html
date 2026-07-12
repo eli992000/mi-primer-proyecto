@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Inicio | Proyecto 4 Patas</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Programas | Proyecto 4 Patas</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
 
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
@@ -19,119 +29,331 @@
         rel="stylesheet"
     >
 
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
 </head>
+
 <body>
-     <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container">
 
-            <a class="navbar-brand" href="index.html">
-                <img
-                    src="ImagenesP4P/logo.png"
-                    alt="Logo de Proyecto 4 Patas"
-                    width="50"
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+            <div class="container">
+
+                <a class="navbar-brand" href="index.html">
+
+                    <img
+                        src="ImagenesP4P/logo.png"
+                        alt="Logo de Proyecto 4 Patas"
+                        width="50"
+                    >
+
+                    Proyecto 4 Patas
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal"
+                    aria-expanded="false"
+                    aria-label="Abrir menú"
                 >
-                Proyecto 4 Patas
-            </a>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#menuPrincipal"
-                aria-controls="menuPrincipal"
-                aria-expanded="false"
-                aria-label="Abrir menú"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="menuPrincipal"
+                >
+                    <ul class="navbar-nav ms-auto">
 
-            <div class="collapse navbar-collapse" id="menuPrincipal">
-                <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="index.html"
+                            >
+                                Inicio
+                            </a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="nosotros.html"
+                            >
+                                Nosotros
+                            </a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html">Nosotros</a>
-                    </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="programas.html"
+                            >
+                                Programas
+                            </a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="programas.html">Programas</a>
-                    </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="contacto.html"
+                            >
+                                Contacto
+                            </a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
+                    </ul>
+                </div>
 
-                </ul>
             </div>
 
-        </div>
-    </nav>
-</header>
-    <main>
+        </nav>
+
+    </header>
+
+    <main class="container">
+
         <h1>Nuestros Programas</h1>
-    <section>
-        <article id="rescate">
-            <h2>Rescate y rehabilitación</h2>
-            <p>Rescatamos a perros y gatos en  situación de abandono o maltrato y les brindamos atención veterinaria, alimentacióny un espacio seguro para su recuperación</p>
-            <p><strong>¿Cómo ayudar?</strong></p>
-            <ul>
-                <li>Contactanos en caso de ver animales que necesiten ayuda</li>
-                <li>Colaborá con donaciones: dinero, comida, ropa o camitas</li>
-                <li>Postulate como familia de tránsito siguiento estos pasos <a href="#rescate">Ir a Rescate</a></li>
-            </ul>
-        </article>
-        <article>
-            <h2>Adopción responsable</h2>
-            <p>Buscamos familias comprometidas que puedan brindar un hogar definitivo a nuestros rescatados.</p>
-            <p><strong>Dirigido a:</strong>Personas que quieran adoptar de forma responsable.</p>
-            <p><strong>¿Cómo participar?</strong>Completando un formilario y pasando por un proceso de evaluación.</p>
-            <h4><strong>Proceso de adopción:</strong></h4>
-            <ol>
-                <li>Contacto inicial</li>
-                <li>Entrevista</li>
-                <li>Visita al hogar</li>
-                <li>Adopción</li>
-            </ol>
-        </article>
-        <article>
-            <h2>Voluntariado y Hogares de Tránsito</h2>
-            <p>Persoonas que ayudan cuidando temproralmente a los animales hasta que sean adopados.</p>
-            <p><strong>Dirigido a:</strong>Amantes de los animales con tiempo y espacio disponible.</p>
-            <p><strong>¿Cómo participar?</strong>Contactános al 11 7105-7437 para sumarte como voluntario o tránsito.</p>
-        </article>
-    </section>
-</main>
-<form id="formularioContacto" action="#" method="POST">
-            <label for="nombre">Nombre Completo:</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
 
-            <label for="correo">Correo Electrónico:</label>
-            <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+        <section>
 
-            <label for="telefono">Teléfono de Contacto:</label>
-            <input type="tel" id="telefono" name="telefono" placeholder="Ej: 11 1234-5678">
+            <article id="rescate">
 
-            <label for="motivo">Motivo del contacto:</label>
-            <input type="text" id="motivo" name="motivo" placeholder="Ej: Adopción, Voluntariado, Consulta general">
+                <h2>Rescate y rehabilitación</h2>
 
-            <label for="mensaje">Tu Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu consulta acá..." required></textarea>
+                <p>
+                    Rescatamos perros y gatos en situación de abandono o
+                    maltrato y les brindamos atención veterinaria,
+                    alimentación y un espacio seguro para su recuperación.
+                </p>
 
-            <button type="submit">Enviar Formulario</button>
-            <p id="mensajeFormulario"></p>
-        </form>
+                <p>
+                    <strong>¿Cómo ayudar?</strong>
+                </p>
 
-<footer>
-    <p>© 2018 Proyecto 4 Patas - Todos los derechos reservados</p>
-</footer>
+                <ul>
+                    <li>
+                        Contactanos si ves animales que necesiten ayuda.
+                    </li>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/main.js"></script>
+                    <li>
+                        Colaborá con donaciones de dinero, alimento, mantas o
+                        camitas.
+                    </li>
+
+                    <li>
+                        Postulate como familia de tránsito completando el
+                        <a href="#seccionFormulario">
+                            formulario de contacto
+                        </a>.
+                    </li>
+                </ul>
+
+            </article>
+
+            <article>
+
+                <h2>Adopción responsable</h2>
+
+                <p>
+                    Buscamos familias comprometidas que puedan brindar un hogar
+                    definitivo a nuestros animales rescatados.
+                </p>
+
+                <p>
+                    <strong>Dirigido a:</strong>
+                    personas que quieran adoptar de forma responsable.
+                </p>
+
+                <p>
+                    <strong>¿Cómo participar?</strong>
+                    Completando el formulario y atravesando un proceso de
+                    evaluación.
+                </p>
+
+                <h3>Proceso de adopción</h3>
+
+                <ol>
+                    <li>Contacto inicial.</li>
+                    <li>Entrevista.</li>
+                    <li>Visita al hogar.</li>
+                    <li>Adopción.</li>
+                </ol>
+
+                <a
+                    class="btn"
+                    href="#seccionFormulario"
+                >
+                    Quiero adoptar
+                </a>
+
+            </article>
+
+            <article>
+
+                <h2>Voluntariado y hogares de tránsito</h2>
+
+                <p>
+                    Personas que ayudan cuidando temporalmente a los animales
+                    hasta que sean adoptados.
+                </p>
+
+                <p>
+                    <strong>Dirigido a:</strong>
+                    amantes de los animales con tiempo y espacio disponible.
+                </p>
+
+                <p>
+                    <strong>¿Cómo participar?</strong>
+                    Completá el formulario o contactanos al 11 7105-7437 para
+                    sumarte como voluntario o brindar un hogar de tránsito.
+                </p>
+
+                <a
+                    class="btn"
+                    href="#seccionFormulario"
+                >
+                    Quiero colaborar
+                </a>
+
+            </article>
+
+        </section>
+
+        <section
+            id="seccionFormulario"
+            class="seccion-formulario"
+        >
+
+            <h2>¿Querés ayudar o adoptar?</h2>
+
+            <p class="textoFormulario">
+                Si querés adoptar, ser voluntario, ofrecer un hogar de tránsito
+                o colaborar con el refugio, completá tus datos y nos pondremos
+                en contacto con vos.
+            </p>
+
+            <form
+                id="formularioContacto"
+                action="#"
+                method="post"
+            >
+
+                <label for="nombre">
+                    Nombre completo:
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Ej: Juan Pérez"
+                    required
+                >
+
+                <label for="correo">
+                    Correo electrónico:
+                </label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="ejemplo@correo.com"
+                    required
+                >
+
+                <label for="telefono">
+                    Teléfono de contacto:
+                </label>
+
+                <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    placeholder="Ej: 11 1234-5678"
+                >
+
+                <label for="motivo">
+                    Motivo del contacto:
+                </label>
+
+                <select
+                    id="motivo"
+                    name="motivo"
+                    required
+                >
+                    <option value="">
+                        Seleccioná una opción
+                    </option>
+
+                    <option value="adopcion">
+                        Adopción
+                    </option>
+
+                    <option value="voluntariado">
+                        Voluntariado
+                    </option>
+
+                    <option value="transito">
+                        Hogar de tránsito
+                    </option>
+
+                    <option value="donacion">
+                        Donación
+                    </option>
+
+                    <option value="rescate">
+                        Aviso por un animal en riesgo
+                    </option>
+
+                    <option value="consulta">
+                        Consulta general
+                    </option>
+                </select>
+
+                <label for="mensaje">
+                    Tu mensaje:
+                </label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    placeholder="Escribí tu consulta acá..."
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Enviar formulario
+                </button>
+
+                <p id="mensajeFormulario"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © 2018 Proyecto 4 Patas - Todos los derechos reservados
+        </p>
+
+    </footer>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+    <script src="js/main.js"></script>
 
 </body>
+
 </html>
